@@ -20,14 +20,12 @@
     <module>server</module>
     <module>webapp</module>
   </modules>
-
 <distributionManagement>
   <snapshotRepository>
     <id>snapshots</id>
     <url>http://52.66.242.7:8081/nexus/content/repositories/snapshots</url>
   </snapshotRepository>
 </distributionManagement>
-
   <build>
     <plugins>
       <plugin>
